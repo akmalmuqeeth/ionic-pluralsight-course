@@ -52,6 +52,7 @@ angular.module("eliteApp", ["ionic"])
   })
     .state('app.team-detail', {
     url: '/teams/:id',
+    controller: 'teamDetailCtrl',
     views : {
       "mainContent" : {
         templateUrl: 'app/teams/team-detail.html'
